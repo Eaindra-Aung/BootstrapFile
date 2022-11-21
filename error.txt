@@ -32,3 +32,117 @@ header
           </div>
         </div>
     </nav>
+
+
+
+    <section id="testimonial" class="technologies">
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p>Technologies</p>
+              <h2>People Say</h2>
+              <p class="technologies-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a. Reprehenderit dolores magnam similique quisquam animi dolorum numquam, ex odio necessitatibus vero a aperiam culpa esse adipisci ipsum libero nesciunt!</p>
+              <p class="technologies-text-colored">Geogory Brown</p>
+            </div>
+            <div class="carousel-item">
+              <p>Technologies</p>
+              <h2>People Say</h2>
+              <p class="technologies-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a. Reprehenderit dolores magnam similique quisquam animi dolorum numquam, ex odio necessitatibus vero a aperiam culpa esse adipisci ipsum libero nesciunt!</p>
+              <p class="technologies-text-colored">Geogory Brown</p>
+            </div>
+            <div class="carousel-item">
+              <p>Technologies</p>
+              <h2>People Say</h2>
+              <p class="technologies-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a. Reprehenderit dolores magnam similique quisquam animi dolorum numquam, ex odio necessitatibus vero a aperiam culpa esse adipisci ipsum libero nesciunt!</p>
+              <p class="technologies-text-colored">Geogory Brown</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>  
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+    </div>
+</section>
+
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row mt-3 h-100">
+                <div class="col-md-6">
+                  <div class="banner-left">
+                    <p class="banner-text text-uppercase">11-21 December</p>
+                    <h6>All Type of Design Conference.</h6>
+                     <div>
+                      <a class="banner-btn btn text-white">Read More</a>
+                     </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                   <div class="banner-right">
+                     <img class="banner-image" src="images/contentimg.png" alt="">
+                   </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row mt-3 h-100">
+              <div class="col-md-6">
+              <div class="banner-left">
+                <p class="banner-text">11-21 December</p>
+                <h6>All Type of Design Conference.</h6>
+                <div>
+                  <a class="banner-btn btn text-white">Read More</a>
+                 </div>
+              </div>
+              </div>
+              <div class="col-md-6">
+                <div class="banner-right">
+                   <img class="banner-image" src="images/contentimg.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+           
+          <div class="carousel-item">
+            <div class="row mt-3 h-100">
+              <div class="col-md-6">
+              <div class="banner-left">
+                <p class="banner-text">11-21 December</p>
+                <h6>All Type of Design Conference.</h6>
+                <div>
+                  <a class="banner-btn btn text-white">Read More</a>
+                 </div>
+              </div>
+              </div>
+              <div class="col-md-6">
+                <div class="banner-right">
+                   <img class="banner-image" src="images/contentimg.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>      
+        </div>
+        <button class="carousel-control-prev" style="display: none;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>          
+        </button>
+        <button class="carousel-control-next" style="display: none;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>         
+        </button>
+      </div>

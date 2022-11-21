@@ -19,35 +19,25 @@ a {
 ul{
     list-style: none;
 }
-
-img {
-    width: 3rem;
+.carousel-item {
+    min-height: 400px;
 }
+.carousel .carousel-indicators [data-bs-target] {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   background-color: #F59B36;
+ }
+
 
 /*=== Navbar ==== */
 .navbar {
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
 }
 
-.navbar-brand {
-     font-weight: 700;
-     font-size: 16px;
-     margin-top: 6px;
-     color: black;
-}
-.navbar-brand img{
-    margin-bottom: 6px;
-}
-.navbar-nav li i{
-    width: 3rem;
-}
-.navbar-brand img{
-    width: 3rem;
-}
-
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .nav-link:active{
-    color: #F59B36;
+    color: #F59B36 !important;
 }
 
 .navbar-nav .nav-item .nav-link{
@@ -55,10 +45,114 @@ img {
     text-transform: uppercase;
 }
 
+
+/* banner === */
+.banner-text {
+   margin-left: 12px;
+}
+.banner-left {
+    line-height: 14px;
+    display: block;
+    width: 60%;
+    margin-top: 4rem;
+}
+.banner-left h6 {
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    width: 120px;
+    font-weight: 600;
+    margin-left: 12px;
+   justify-content: center;
+}
+
+ .banner-right .banner-image {
+  display: block;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.banner-btn {
+    background-color: #F59B36 !important;
+    color: white;
+    width: 120px;
+}
+
+
+/* call to action == */
+.call-to-action {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 18px;
+}
+.day-count {
+    line-height: 32px;
+}
+.day-count img{
+    width: 50%;
+    height: 50%;
+    /* border-radius: 50%; */
+}
+
+.day-count p{
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-left: 16px;
+}
+
+/* testimonial === */
+.technologies, #testimonial {
+    padding-top: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.technologies, #testimonial, #contact p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.technologies-text {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 18px;
+}
+
+
+/* testimonial === */
+
+#testimonial .technologies-text-colored {
+    color: #F59B36;
+    font-size: 16px;
+}
+#testimonial .technologies-text {
+    width: 80%;
+    margin-top: 18px;
+}
+#testimonial .carousel-item {
+    min-height: 250px;
+}
+
+/* Contact == */
+#contact {
+    padding-top: 18px;
+    margin-bottom: 36px;
+}
+#contact .banner-btn {  
+    width: 150px;
+}
+
 //footer ===//
 
 footer .footer-text{
    margin-top: 20px;
+}
+.footer-list {
+    margin-right: 2px;
 }
 .footer-text a{
     color: #F59B36;
@@ -66,7 +160,6 @@ footer .footer-text{
 .footer-info {
     font-size: 14px;
 }
-
 .footer-text-right {
     width: 100%;
     line-height: 20px;
